@@ -1,0 +1,36 @@
+.div{
+    border: 2px solid #000;
+    margin: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    height: 40%; 
+    width: 30%;
+   
+}
+
+.profil{
+    height: 20rem;
+    border-radius:50%; 
+    border: 8px double #460479;
+}
+
+.presentation{
+    text-align:justify;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.banner{
+    text-align: center;
+    background-color: rgb(255, 0, 98);
+    padding: 4rem;
+    color: #fff;
+    font-size: 2rem;
+}
+  
+.div:hover{
+    box-shadow: 1px 1px 10px #AA1994;
+    transition: 0.5s;
+}

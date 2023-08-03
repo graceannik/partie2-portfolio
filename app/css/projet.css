@@ -1,0 +1,44 @@
+.technologie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.technologie li {
+    padding: 0.7rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 1rem;
+    margin: 0 0 0 1rem;
+}
+
+.section{
+    display: block;
+}
+
+.container{
+    text-align: justify;
+    padding: 1rem;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    justify-content: center;  
+    grid-template-columns: 1fr;
+}
+
+.image img{
+    width: 33.33%;
+    margin-bottom: 10px;  
+    
+}
+
+.projet{
+    border: 5px double #460479;
+    margin: 1rem;
+}

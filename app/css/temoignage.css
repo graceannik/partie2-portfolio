@@ -1,0 +1,58 @@
+/* Style pour les cellules d'en-tête (th) */
+th {
+    background-color: #618685;
+    color: #fff; /* Couleur du texte */
+    padding: 10px;
+  }
+  
+  /* Style pour les cellules de données (td) */
+  td {
+    background-color: #d5f4e6;
+    padding: 10px;
+  }
+  
+  /* Style pour les boutons "Modifier" et "Supprimer" */
+  button.editer {
+    background-color: #618696;
+    color: #fff; /* Couleur du texte */
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.supprimer {
+    background-color: #618696;
+    color: #fff; /* Couleur du texte */
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style pour la bordure autour du tableau */
+  .liste-des-commentaires {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .liste-des-commentaires th,
+  .liste-des-commentaires td {
+    border: 1px solid #618685;
+  }
+  
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #618696  ;
+    padding: 1rem;
+    margin: 1rem auto;
+    color: white;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}

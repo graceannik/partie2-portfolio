@@ -1,0 +1,50 @@
+h2{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.form label{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphe{
+    text-align: justify;
+}
+
+.input{
+    padding: 1rem;
+    font-size: 1rem;
+    height: 3rem;
+}
+
+.ajout-commentaire{
+    text-decoration: none;
+   }
+
+.input:hover{
+    box-shadow: 1px 1px 4px #AA1994;
+}
+
+.envoyer{
+    background-color: #440589;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.validate{
+    text-align: justify;
+    color: red;
+}

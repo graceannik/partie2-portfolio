@@ -1,0 +1,18 @@
+.title {
+    background-color: #D70466;
+    border: 2px solid #92174D;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    margin: .5rem;
+    text-align: center;
+}
+
+.contenu {
+    border-top: none;
+    padding: .5rem;
+}
+
+.hidden {
+    display: none;
+}
